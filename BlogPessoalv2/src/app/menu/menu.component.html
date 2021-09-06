@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+    aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <ul class="navbar-nav mr-auto d-flex align-items-center">
+    <li class="nav-item pl-1 text ">
+
+      <button (click)="sair()" class="m-0 font-weight-bold text-black fs-16 btn btn-outline-warning"> Sair <i class="fas fa-sign-out-alt"></i> </button>
+    </li>
+  </ul>
+
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav ml-auto d-flex align-items-center">
+      <li class="nav-item active">
+        <img src="{{foto}}" alt="imagem do usuario" width="50px" height="50px"
+          class="img-fluid rounded-circle">
+      </li>
+
+      <li class="nav-item pl-3">
+        <p class="m-0 font-weight-bold text-white fs-20">{{nome}}</p>
+      </li>
+
+      <a href="">
+        <li>
+          <P class="pl-3 text-white fs-20 m-0">
+            <i class="fas fa-cog"></i>
+          </P>
+        </li>
+      </a>
+    </ul>
+
+
+  </div>
+</nav>

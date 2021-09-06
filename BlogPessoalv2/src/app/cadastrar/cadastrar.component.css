@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://st2.depositphotos.com/7782150/10571/i/600/depositphotos_105712376-stock-photo-hands-forming-a-circle.jpg');
+  
+    min-height: 630px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
